@@ -1,0 +1,204 @@
+section {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 90%;
+}
+
+.judulsec {
+    text-align: center;
+    color: #3A3482;
+}
+
+oren {
+    color: #D87532;
+}
+
+.garisbawah {
+    width: 8rem;
+    height: 0.3rem;
+    background-color: #3A3482;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.navbar-brand img {
+    margin-left: 3rem;
+    }
+
+/* Tentang Kami */
+
+.TentangKami h2 {
+    color: #3A3482;
+}
+
+.TentangKami h5, .TentangKami h2 {
+    padding-left: 2rem;
+}
+
+.TentangKami .diplaypleks {
+    display: flex;
+}
+
+.TentangKami img {
+    width: 38rem;
+    border-radius: 0.5rem;
+}
+
+/* Jadwal */
+
+.JadwalOpen {
+    width: 70%;
+}
+
+.tabelinfo {
+    padding: 1.5rem;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 0px 0px #88888868;
+    border: 2.5px solid #3A3482
+}
+
+.judulon {
+    text-align: center;
+    font-size: 25px;
+}
+
+.tabelinfo .onjadwal li p {
+    font-weight: normal ;
+}
+
+.joinbtn {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.joinbtn a {
+    text-decoration: none;
+    background-color: #3A3482;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 0.3rem;
+}
+
+/* join discord */
+
+.joindiscord {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.joindiscord .banner {
+    height: 12rem;
+    background-image: url('images/DcBG.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 3rem;
+}
+
+.joindiscord .banner h1 {
+    color: white;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.joindiscord .banner h5 {
+    color: white;
+    margin-left: 1.5rem;
+    font-weight: normal;
+}
+
+.joindiscord .banner a {
+    text-decoration: none;
+    color: #4F64D0;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+/* pelayanan kami */
+
+.daftarcard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+    height: auto;
+}
+
+.daftarcard .card {
+    width: 20rem;
+    height: auto;
+    box-shadow: 0px 2px 0px 0px #88888868;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.daftarcard .icon {
+    background-image: url(images/device-line.png);
+    width: 3rem;
+    height: 3rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+/* futer */
+
+footer {
+    background-color: #201d44;
+    color: white;
+    padding: 50px;
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+    height: auto;
+}
+
+footer .Logo img {
+    width: 10rem;
+    margin-bottom: 15px;
+}
+
+footer .Logo h4 {
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+    margin-left: 0rem;
+    }
+
+    .TentangKami .diplaypleks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TentangKami .diplaypleks h5 {
+        text-align: justify;
+    }
+
+    .TentangKami img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .JadwalOpen {
+        width: 95%;
+    }
+}
