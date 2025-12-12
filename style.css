@@ -51,6 +51,20 @@ oren {
     width: 70%;
 }
 
+
+.judulon {
+    display: none;
+}
+
+.onjadwal {
+    display: none;
+}
+
+.offjadwal {
+    display: block;
+}
+
+
 .tabelinfo {
     padding: 1.5rem;
     height: auto;
@@ -180,6 +194,10 @@ footer a {
 }
 
 @media (max-width: 1120px) {
+    .offjadwal {
+        text-align: center;
+    }
+
     .diplaypleks h5 {
         font-size: 14px;
     }
