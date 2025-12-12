@@ -179,7 +179,11 @@ footer a {
     font-weight: normal;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1120px) {
+    .diplaypleks h5 {
+        font-size: 14px;
+    }
+
     .navbar-brand img {
     margin-left: 0rem;
     }
